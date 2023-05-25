@@ -1,5 +1,5 @@
 # Payment Gateway APIs
-This doc describes my simple approach to building a payment gateway using a bank simulator.
+This doc describes my simple approach to building a payment gateway using a bank simulator using Java/SpringBoot and maven build.
 
 ### Payment Service 
 Process a user's card payment via acquiring bank.
@@ -115,8 +115,8 @@ Provides details of a previous card transaction.
 
 ## Running the Solution
 
-* Install an IDE for Java/SpringBoot, I used IntelliJ
-* Clone the GitHub repo:
+* Install an IDE for Java/SpringBoot, I used [IntelliJ](https://www.jetbrains.com/help/idea/spring-boot.html)
+* Clone the GitHub [repo](https://github.com/bukolabisuga/paymentgateway)
 * Open the project from your IDE. Using IntelliJ, click `Run` then `Edit Configuration` and select the `PaymentGatewayApplication` under the `Application` tab (you can change the `Unnamed` title).
 * Click `apply` then `OK`
 * Select the right pointer button beside the application (Unnamed or your chosen name above)
