@@ -99,7 +99,6 @@ Provides details of a previous card transaction.
 
 ```json
 {
-  "timestamp": "2023-05-24T17:13:04.166+00:00",
   "status": 404,
   "error": "Not Found",
   "message": "Payment details not found for transaction : e9185820-5fb7-4652-880c-f84d100db0d5",
