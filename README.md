@@ -125,27 +125,25 @@ Provides details of a previous card transaction.
 
 ## Improvements
 
-1. 
+1. Compliance and Data Protection: I suggest proper card tokenization and hashing algorithms to protect sensitive user data e.g. card pan, pin, cvv, expiry.
 
-2. Compliance and Data Protection: I suggest proper card tokenization and hashing algorithms to protect sensitive user data e.g. card pan, pin, cvv.
+2. Distributed Database: Integrating with a distributed database system like SQL, to manage storage and retrieval of transaction data
 
-3. Distributed Database: Integrating with a distributed database system like SQL, to manage storage and retrieval of transaction data
+3. Input Validation: Implement thorough input validation to ensure that the API handles and rejects invalid or malicious input gracefully.
 
-4. Input Validation: Implement thorough input validation to ensure that the API handles and rejects invalid or malicious input gracefully.
+4. Error Handling and Logging: Enhance the error handling mechanism by implementing a centralized exception handling mechanism to handle exceptions and return meaningful error responses to the client.
 
-5. Error Handling and Logging: Enhance the error handling mechanism by implementing a centralized exception handling mechanism to handle exceptions and return meaningful error responses to the client.
+5. Authentication and Authorization: Implement authentication and authorization mechanisms to secure the APIs. e.g. OAuth 2.0 or JSON Web Tokens (JWT) to authenticate clients and authorize access to protected resources. 
 
-6. Authentication and Authorization: Implement authentication and authorization mechanisms to secure the APIs. e.g. OAuth 2.0 or JSON Web Tokens (JWT) to authenticate clients and authorize access to protected resources. 
+6. Unit and Integration Testing: Expand the test coverage by writing comprehensive unit and integration tests.
 
-7. Unit and Integration Testing: Expand the test coverage by writing comprehensive unit and integration tests.
+7. Performance Optimization: Conduct performance testing and optimization to ensure that the APIs can respond efficiently and handle high load.
 
-8. Performance Optimization: Conduct performance testing and optimization to ensure that the APIs can respond efficiently and handle high load.
+8. Security Considerations: Encrypt sensitive data at rest and use secure protocols (e.g., HTTPS).
 
-9. Security Considerations: Encrypt sensitive data at rest and use secure protocols (e.g., HTTPS).
+9. Scalability and High Availability: Improve the software architecture to be scalable e.g. using horizontal scaling by deploying multiple instances of the application behind a load balancer to handle increased traffic.
 
-10. Scalability and High Availability: Improve the software architecture to be scalable e.g. using horizontal scaling by deploying multiple instances of the application behind a load balancer to handle increased traffic.
-
-11. Monitoring and Metrics: Tools like Prometheus, Grafana, or Kibana can collect and visualize relevant metrics and logs, establish alerts and monitoring thresholds.
+10. Monitoring and Metrics: Tools like Prometheus, Grafana, or Kibana can collect and visualize relevant metrics and logs, establish alerts and monitoring thresholds.
 
 
 ## Cloud Technologies 
