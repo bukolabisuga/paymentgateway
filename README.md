@@ -149,7 +149,9 @@ Provides details of a previous card transaction.
 ## Cloud Technologies 
 
 I'd suggest using platforms like `Azure` and `AWS` because they implement concepts like containerization (e.g. Docker) and orchestration frameworks (e.g. Kubernetes) to manage app deployments and high availability.
-For example, `Azure` has a simple interface, offers more scalability for virtual machines and offers cost-savings compared to other clouds through discounts on licensing.
+
+For example, `Azure` has a simple interface, offers more scalability for virtual machines and offers cost-savings compared to other clouds through discounts on licensing across several regions.
 Azure is compatible with Java and .Net-based applications, provides robust security and offers more flexibility for hybrid cloud architecture.
 
+Using cloud technologies like `Azure` also ensure that we adhere to regulations like GDPR and PCI DSS when storing sensitive customer data in payment systems under the required regions (e.g. UK, US, EU, ASIA, etc.)
 
